@@ -1,0 +1,4001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-447"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">DP_Projekt2025</command>
+    <result xml:space="preserve">Wake up, Count Dorklok! You are here. In the City. Eight hours of train travel almost made you forget why you are here in the first place. Let me remind you! The rent is not gonna pay itself and Chief Redd needs you to help him find out some information. You see, there has been a robbery - at the blood bank! There is only one suspect profile and you guessed it. It's a vampire. Now, why would they send you - a humble police station database manager - to such a mission? Well, you're the only nerd in the police station interested enough in all this vampiric stuff. Like, remember how you wore a cape and fake fangs in middle school? Or tried to sue Twilight Saga for false depiction? Anyhow, now you are a detective. Good luck!&#x000A;&#x000A;DP Projekt 2025&#x000A;An Interactive Fiction by Klara kaulj&#x000A;Release 1 / Serial number 250117 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;New Volterra - City Centre&#x000A;The City of New Volterra is a, heh, lively metropolitan area inhabited by both people and nightfolk. Nightfolk include vampires, werewolves, ghouls, and many others. Like any other bigger city, New Volterra has its troubles such as the rise of dark magic, criminal organizations, and corruption. Other than that, it's a lovely place enriched with various cultures. The City Centre consists of a Main square surrounded by shops and many other businesses. A beautiful gothic fountain is the centerpiece of this square, and north of it lies The City Council building. As a young detective from down south, you begin to feel a bit overwhelmed.&#x000A;&#x000A;You can see a note, Morgana and Sigmund here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-4"/>
+      <child nodeId="node-7"/>
+      <child nodeId="node-8"/>
+      <child nodeId="node-75"/>
+      <child nodeId="node-120"/>
+      <child nodeId="node-225"/>
+      <child nodeId="node-263"/>
+      <child nodeId="node-297"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">New Volterra - City Centre</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">New Volterra - City Centre</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">Find Victor. He will give you directions and provide you with equipment. His shop is in City Centre.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">examine Morgana</command>
+    <result xml:space="preserve">A tall and muscular woman with red hair and bunch of tattoos. Dressed in all black with platform boots that make her even taller. Phew!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">ask Morgana about Victor</command>
+    <result xml:space="preserve">Morgana: There's 50 million citizens here and you ask me about some Victor? Geez, might as well drop a needle in the hay.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">ask Sigmund about Victor</command>
+    <result xml:space="preserve">Victor: Yeah, he's right "round this corner. But watch out he is, like, weird and stuff.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">Go to Victor's workshop</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Victor's workshop&#x000A;Victor is an engineer. He makes weapons and various other tools used by police and military. It's rumored that he also pracitces some kind of magic, but you are not the one to fall for rumors, are you? The workshop reeks of garlic.&#x000A;&#x000A;You can see Victor Volturi, a key, a chest (closed), Garlic bread and a gun here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">talk to Victor Volturi</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">examine Victor Volturi</command>
+    <result xml:space="preserve">Short and fat man with greasy dark hair. He is wearing some kind of weird goggles.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">say Greetings to Victor Volturi</command>
+    <result xml:space="preserve">"Who sent you here kid?" Victor asks.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">give Victor Volturi the note</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">pocket</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">give note to Victor Volturi</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">go back</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">go est</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">New Volterra - City Centre&#x000A;The City of New Volterra is a, heh, lively metropolitan area inhabited by both people and nightfolk. Nightfolk include vampires, werewolves, ghouls, and many others. Like any other bigger city, New Volterra has its troubles such as the rise of dark magic, criminal organizations, and corruption. Other than that, it's a lovely place enriched with various cultures. The City Centre consists of a Main square surrounded by shops and many other businesses. A beautiful gothic fountain is the centerpiece of this square, and north of it lies The City Council building. As a young detective from down south, you begin to feel a bit overwhelmed.&#x000A;&#x000A;You can see a note, Morgana and Sigmund here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">You slip the note into your pocket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">Find Victor. He will give you directions and provide you with equipment. His shop is in City Centre. Info: Victor Volturi, West City Centre 45, NV - Redd&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">note 1</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a note 1&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">go wesr</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Victor's workshop&#x000A;Victor is an engineer. He makes weapons and various other tools used by police and military. It's rumored that he also pracitces some kind of magic, but you are not the one to fall for rumors, are you? The workshop reeks of garlic.&#x000A;&#x000A;You can see Victor Volturi, a key, a chest (closed), Garlic bread and a gun here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">give note to Victor Volturi</command>
+    <result xml:space="preserve">Victor takes the note and reads it. He points his finger up and then left. It's pointing to a chest&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">ask Victor Volturi about weapons</command>
+    <result xml:space="preserve">"I have been crafting guns, swords, daggers, cannons and buncha other knicknacks for over 90 years now using only the finest materials there are."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">give note to Victor Volturi</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">ask Victor Volturi about weapons</command>
+    <result xml:space="preserve">"I have been crafting guns, swords, daggers, cannons and buncha other knicknacks for over 90 years now using only the finest materials there are."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">ask Victor Volturi about the chest</command>
+    <result xml:space="preserve">"I don't have much to say about that," Victor grumbles, returning to his work.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">ask Victor Volturi about chest</command>
+    <result xml:space="preserve">"That chest over there? It contains some of my finest creations. But only those with the right key can open it."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">ask Victor Volturi about key</command>
+    <result xml:space="preserve">"20 bucks, take it or leave it."&#x000A;"What do you want to do next?"&#x000A;1. "Pay the $20 and buy the key."&#x000A;2. "Try to haggle."&#x000A;3. "Never mind."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">Victor frowns. "No haggling. 20 bucks, take it or leave it."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">3</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">ask Victor Volturi about key</command>
+    <result xml:space="preserve">"20 bucks, take it or leave it."&#x000A;"What do you want to do next?"&#x000A;1. "Pay the $20 and buy the key."&#x000A;2. "Try to haggle."&#x000A;3. "Never mind."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">3</command>
+    <result xml:space="preserve">Victor shrugs and goes back to work.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">ask Victor Volturi about key</command>
+    <result xml:space="preserve">"20 bucks, take it or leave it."&#x000A;"What do you want to do next?"&#x000A;1. "Pay the $20 and buy the key."&#x000A;2. "Try to haggle."&#x000A;3. "Never mind."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Victor takes the $20 and hands you a rusty key. "Good choice," he says.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a key&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">ask Victor Volturi about key</command>
+    <result xml:space="preserve">"20 bucks, take it or leave it."&#x000A;"What do you want to do next?"&#x000A;1. "Pay the $20 and buy the key."&#x000A;2. "Try to haggle."&#x000A;3. "Never mind."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Victor takes the $20 and hands you a rusty key. "Good choice," he says.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">exmaine key</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">examine key</command>
+    <result xml:space="preserve">A rusty key. That you payed 20 bucks for. 20 bucks for rusty key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">open chesz</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">The chest is locked. You can't open it without the key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">ask Victor Volturi about chest</command>
+    <result xml:space="preserve">"That chest over there? It contains some of my finest creations. But only those with the right key can open it."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">ask about key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">ask Victor Volturi about key</command>
+    <result xml:space="preserve">"20 bucks, take it or leave it."&#x000A;"What do you want to do next?"&#x000A;1. "Pay the $20 and buy the key."&#x000A;2. "Try to haggle."&#x000A;3. "Never mind."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Victor takes the $20 and hands you a rusty key. "Good choice," he says.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a key&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">unlock chest with kex</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">unlock chest with key</command>
+    <result xml:space="preserve">You insert the key into the lock and turn it. The chest is now unlocked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">unlock chest with key</command>
+    <result xml:space="preserve">You insert the key into the lock and turn it. The chest is now unlocked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">take treasure</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open the chest and find a something inside. You take the grab and close the chest again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a garlic&#x000A;  a key&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">examine treasure</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">The chest is locked. You can't open it without the key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">unlock chest with key</command>
+    <result xml:space="preserve">You insert the key into the lock and turn it. The chest is now unlocked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open the chest and find a something inside. You take the grab and close the chest again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a garlic&#x000A;  a key&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">examine garlicy stake</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">ask Victor Volturi about garlicy stake</command>
+    <result xml:space="preserve">"I don't have much to say about that," Victor grumbles, returning to his work.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a garlic&#x000A;  a key&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">examine notebook</command>
+    <result xml:space="preserve">You review your notes:You haven't written down any clues yet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">examine room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">ask Victor Volturi about garlic bread</command>
+    <result xml:space="preserve">"My lovely wife baked some this morning. It's delicious. Help yourself!"&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">take garlic bread</command>
+    <result xml:space="preserve">You jot down the details of "Garlic bread" in your notebook.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">examine notebook</command>
+    <result xml:space="preserve">You review your notes:Garlic bread: Vampires don't really like garlic - must suck if they are Italian.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">examine Victor's workshop</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">You slip the note into your pocket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">Find Victor. He will give you directions and provide you with equipment. His shop is in City Centre. Info: Victor Volturi, West City Centre 45, NV - Redd&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">ask Morgana about Victor</command>
+    <result xml:space="preserve">Morgana: There's 50 million citizens here and you ask me about some Victor? Geez, might as well drop a needle in the hay.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">ask Morgana about Victor Volturi</command>
+    <result xml:space="preserve">Morgana: Right, he collabs with the cops. A traitor if you ask me! &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">ask Sigmund about Victor</command>
+    <result xml:space="preserve">Victor: Yeah, he's right "round this corner - westside. But watch out he is, like, weird and stuff.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Victor's workshop&#x000A;Victor is an engineer. He makes weapons and various other tools used by police and military. It's rumored that he also pracitces some kind of magic, but you are not the one to fall for rumors, are you? The workshop reeks of garlic.&#x000A;&#x000A;You can see Victor Volturi, a key, a chest (closed), Garlic bread and a gun here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">ask Victor Volturi about a gun</command>
+    <result xml:space="preserve">"I don't have much to say about that," Victor grumbles, returning to his work.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">ask Victor Volturi about gun</command>
+    <result xml:space="preserve">"Take it. It's made for you. Your boss payed me up front."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">take gun</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">examine gun</command>
+    <result xml:space="preserve">A shiny revolver that uses silver bullets  and deals 6 damage- Van Hellsing style.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a gun&#x000A;  a note 1&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">New Volterra - City Centre&#x000A;The City of New Volterra is a, heh, lively metropolitan area inhabited by both people and nightfolk. Nightfolk include vampires, werewolves, ghouls, and many others. Like any other bigger city, New Volterra has its troubles such as the rise of dark magic, criminal organizations, and corruption. Other than that, it's a lovely place enriched with various cultures. The City Centre consists of a Main square surrounded by shops and many other businesses. A beautiful gothic fountain is the centerpiece of this square, and north of it lies The City Council building. As a young detective from down south, you begin to feel a bit overwhelmed.&#x000A;&#x000A;You can see Morgana and Sigmund here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in ancient carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;You can see an ancient relict here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">East Wing&#x000A;The East Wing is a narrow corridor with flickering torches casting long shadows. You see several ornate doors along the walls, some ajar, revealing what looks like storage rooms.&#x000A;&#x000A;You can see a blood sample here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">go back</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in ancient carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;You can see an ancient relict here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">move player to The New Volterra - City Centre</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">.</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a note 1&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Mechants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Market&#x000A;Lively area filled with vendors and interesting things.&#x000A;&#x000A;You can see Cecilia, Gaiman, an onions, a Book of The Undead and a Blood Pudding here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">examine Cecilia</command>
+    <result xml:space="preserve">A mysterious figure in long black dress and big sunglasses.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">examine Cecilia</command>
+    <result xml:space="preserve">A mysterious figure in long black dress and big sunglasses.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">examine Cecilia</command>
+    <result xml:space="preserve">A mysterious figure in long black dress and big sunglasses.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">examine Cecilia</command>
+    <result xml:space="preserve">A mysterious figure in long black dress and big sunglasses.&#x000A;The sun sets, and the city grows quiet as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">examine Cecilia</command>
+    <result xml:space="preserve">Mhm, yep, that's a vampire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">examine Gaiman</command>
+    <result xml:space="preserve">Short and fat man that sells a variety of things. You can buy something from him by asking him about merch&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">ask Gaiman about Merch</command>
+    <result xml:space="preserve">"Damn right I got merch. Buy your heart out kid."&#x000A;"No haggling.."&#x000A;1. "Onions"&#x000A;2. "Book of The Undead"&#x000A;3. "Blood Pudding"&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Market is closed at night.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">ask gaiman about vampires</command>
+    <result xml:space="preserve">"All I know that there is one they call King and that I try to stay away from them."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">ask Gaiman about vampires</command>
+    <result xml:space="preserve">"All I know that there is one they call King and that I try to stay away from them."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">ask Gaiman about vampires</command>
+    <result xml:space="preserve">"All I know that there is one they call King and that I try to stay away from them."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">ask Gaiman about vampires</command>
+    <result xml:space="preserve">"All I know that there is one they call King and that I try to stay away from them."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">ask Gaiman about vampires</command>
+    <result xml:space="preserve">"All I know that there is one they call King and that I try to stay away from them."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">ask Gaiman about vampires</command>
+    <result xml:space="preserve">"All I know that there is one they call King and that I try to stay away from them."&#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">ask Gaiman about vampires</command>
+    <result xml:space="preserve">"All I know that there is one they call King and that I try to stay away from them."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">ask Gaiman about vampires</command>
+    <result xml:space="preserve">"All I know that there is one they call King and that I try to stay away from them."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">ask Gaiman about vampires</command>
+    <result xml:space="preserve">"All I know that there is one they call King and that I try to stay away from them."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">ask Gaiman about vampires</command>
+    <result xml:space="preserve">"All I know that there is one they call King and that I try to stay away from them."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">examine Cecilia</command>
+    <result xml:space="preserve">A mysterious figure in long black dress and big sunglasses.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">Victor frowns. "No haggling. 20 bucks, take it or leave it."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">3</command>
+    <result xml:space="preserve">....&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">4</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Merchants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;You can see Beggar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+      <child nodeId="node-204"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Hells Bells&#x000A;A pub that welcomes nightfolk and all of the others.&#x000A;&#x000A;You can see a wooden door, Patrik Noah and Isidora here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+      <child nodeId="node-133"/>
+      <child nodeId="node-184"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Mechants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">New Volterra - City Centre&#x000A;The City of New Volterra is a, heh, lively metropolitan area inhabited by both people and nightfolk. Nightfolk include vampires, werewolves, ghouls, and many others. Like any other bigger city, New Volterra has its troubles such as the rise of dark magic, criminal organizations, and corruption. Other than that, it's a lovely place enriched with various cultures. The City Centre consists of a Main square surrounded by shops and many other businesses. A beautiful gothic fountain is the centerpiece of this square, and north of it lies The City Council building. As a young detective from down south, you begin to feel a bit overwhelmed.&#x000A;&#x000A;You can see a note, Morgana and Sigmund here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">ask Morgana about Victor</command>
+    <result xml:space="preserve">Morgana: There's 50 million citizens here and you ask me about some Victor? Geez, might as well drop a needle in the hay.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">ask Morgana about Victor Volturi</command>
+    <result xml:space="preserve">Morgana: Right, he collabs with the cops. A traitor if you ask me! &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">ask Sigmund about Victor Volturi</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">You slip the note into your pocket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">ask Sigmund about Victor </command>
+    <result xml:space="preserve">Victor: Yeah, he's right "round this corner - westside. But watch out he is, like, weird and stuff.&#x000A;&#x000A;The sun sets, and the city grows quiet as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in ancient carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;You can see an ancient relict here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">East Wing&#x000A;The East Wing is a narrow corridor with flickering torches casting long shadows. You see several ornate doors along the walls, some ajar, revealing what looks like storage rooms.&#x000A;&#x000A;You can see Grog and a blood sample here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">examine Grog</command>
+    <result xml:space="preserve">The vampire steps out of the shadows, its eyes glowing red.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">examine Grog</command>
+    <result xml:space="preserve">The vampire steps out of the shadows, its eyes glowing red.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">ask Patrik Noah about vampires</command>
+    <result xml:space="preserve">"Aw man they are cool, sometimes they gather in my pub and order Bloody Marys - extra blood." Patrik winks and hands you a small rusty key. "You might need this." he says.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">ask Patrik Noah about vampires</command>
+    <result xml:space="preserve">"Aw man they are cool, sometimes they gather in my pub and order Bloody Marys - extra blood." Patrik winks and hands you a small rusty key. "You might need this." he says.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">examine vault key</command>
+    <result xml:space="preserve">The vault key looks rusty and small, definitely important for unlocking something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">unlock wooden door</command>
+    <result xml:space="preserve">(with the notebook)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">unlock wooden door with vault key</command>
+    <result xml:space="preserve">(first taking the vault key)&#x000A;Eeek, the wooden door unlocks.&#x000A;&#x000A;The sun sets, and the city grows quiet as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">enter the door</command>
+    <result xml:space="preserve">(first opening the wooden door)&#x000A;&#x000A;Secret Room&#x000A;This is some sort of an archive.&#x000A;&#x000A;You can see a wooden door and a shiny scroll here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">examine shiny scroll</command>
+    <result xml:space="preserve">If you wish to become a creature of the night, you shall come to me mortal and I shall grant you your wish. Come to my nest, little bird. Fear me not.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">take shiny scroll</command>
+    <result xml:space="preserve">You jot down the details of "shiny scroll" in your notebook.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">notebook</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">examine notebook</command>
+    <result xml:space="preserve">You review your notes:shiny scroll: If you wish to become a creature of the night, you shall come to me mortal and I shall grant you your wish. Come to my nest, little bird. Fear me not.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">go back</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Hells Bells&#x000A;A pub that welcomes nightfolk and all of the others.&#x000A;&#x000A;You can see a wooden door, Patrik Noah and Isidora here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">ask Isidora about vampire</command>
+    <result xml:space="preserve">"Leave me alone, mortal."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">examine Isidora</command>
+    <result xml:space="preserve">Mhm, yep, that's a vampire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Mechants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">1. Introduction and City of New Volterra &#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Victor's workshop&#x000A;Victor is an engineer. He makes weapons and various other tools used by police and military. It's rumored that he also pracitces some kind of magic, but you are not the one to fall for rumors, are you? The workshop reeks of garlic.&#x000A;&#x000A;You can see Victor Volturi, a workshop key, a chest (closed), Garlic bread and a gun here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">examine Garlic bread</command>
+    <result xml:space="preserve">Vampires don't really like garlic - must suck if they are Italian.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">take garlic bread</command>
+    <result xml:space="preserve">You jot down the details of "Garlic bread" in your notebook.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">examine notebook</command>
+    <result xml:space="preserve">You review your notes:shiny scroll: If you wish to become a creature of the night, you shall come to me mortal and I shall grant you your wish. Come to my nest, little bird. Fear me not.&#x000A;Garlic bread: Vampires don't really like garlic - must suck if they are Italian.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">ask Victor Volturi about chest</command>
+    <result xml:space="preserve">"That chest over there? It contains some of my finest creations. But only those with the right key can open it."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">ask Victor Volturi about key</command>
+    <result xml:space="preserve">"20 bucks, take it or leave it."&#x000A;"What do you want to do next?"&#x000A;1. "Pay the $20 and buy the key."&#x000A;2. "Try to haggle."&#x000A;3. "Never mind."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Victor takes the $20 and hands you a rusty key. "Good choice," he says.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a workshop key&#x000A;  Garlic bread&#x000A;  a shiny scroll&#x000A;  a vault key&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">The chest is locked. You can't open it without the key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">unlock chest with workshop key</command>
+    <result xml:space="preserve">You insert the key into the lock and turn it. The chest is now unlocked.&#x000A;&#x000A;The sun sets, and the city grows quiet as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open the chest and find a something inside. You take the grab and close the chest again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">examine chest</command>
+    <result xml:space="preserve">A massive wooden chest. God knows what's in it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a garlic&#x000A;  a workshop key&#x000A;  Garlic bread&#x000A;  a shiny scroll&#x000A;  a vault key&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">examine garlix</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">examine garlic</command>
+    <result xml:space="preserve">Which do you mean, the garlic or Garlic bread?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">the garlix</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">the garlic</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-168"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">examine the garlic</command>
+    <result xml:space="preserve">Which do you mean, the garlic or Garlic bread?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">garlic</command>
+    <result xml:space="preserve">Which do you mean, the garlic or Garlic bread?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">the garlic</command>
+    <result xml:space="preserve">Which do you mean, the garlic or Garlic bread?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">examine the garlic</command>
+    <result xml:space="preserve">Which do you mean, the garlic or Garlic bread?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">examine the garlic bread</command>
+    <result xml:space="preserve">Vampires don't really like garlic - must suck if they are Italian.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">take garlic</command>
+    <result xml:space="preserve">Which do you mean, the garlic or Garlic bread?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">1. Introduction and City of New Volterra &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-175"/>
+    </children>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-176"/>
+    </children>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Victor's workshop&#x000A;Victor is an engineer. He makes weapons and various other tools used by police and military. It's rumored that he also pracitces some kind of magic, but you are not the one to fall for rumors, are you? The workshop reeks of garlic.&#x000A;&#x000A;You can see Victor Volturi, a chest (closed) and a gun here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">1. Introduction and City of New Volterra &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">3. The final decision &#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">examine a grand vampire</command>
+    <result xml:space="preserve">A powerful and terrifying creature, the grand vampire stands tall with glowing red eyes and sharp fangs, exuding dark energy.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-180"/>
+    </children>
+  </item>
+  <item nodeId="node-180">
+    <command xml:space="preserve">kill grand vampire</command>
+    <result xml:space="preserve">You need both a gun and garlic to kill the grand vampire!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-181"/>
+    </children>
+  </item>
+  <item nodeId="node-181">
+    <command xml:space="preserve">kill grand vampire</command>
+    <result xml:space="preserve">You need both a gun and garlic to kill the grand vampire!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve">ask grand vampire about eternal life</command>
+    <result xml:space="preserve">"DO YOU WISH TO LIVE IT?"&#x000A;"The choice is yours, kid."&#x000A;1. "Become a vampire."&#x000A;2. "Bring justice - Kill him."&#x000A;3. "Do nothing."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">3</command>
+    <result xml:space="preserve">Victor shrugs and goes back to work.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve">ask Patrik Noah about himself</command>
+    <result xml:space="preserve">"Don't know, guess I am really passionate about cocktails, tattoos and computers. Ever heard of this band - King Gizzard? They are so cool. " Patrik yapps.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-185"/>
+    </children>
+  </item>
+  <item nodeId="node-185">
+    <command xml:space="preserve">examine Patrik Noah</command>
+    <result xml:space="preserve">A quriky bartender working in the pub. He collects gossip and rumours.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-186"/>
+    </children>
+  </item>
+  <item nodeId="node-186">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Mechants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-187"/>
+    </children>
+  </item>
+  <item nodeId="node-187">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">New Volterra - City Centre&#x000A;The City of New Volterra is a, heh, lively metropolitan area inhabited by both people and nightfolk. Nightfolk include vampires, werewolves, ghouls, and many others. Like any other bigger city, New Volterra has its troubles such as the rise of dark magic, criminal organizations, and corruption. Other than that, it's a lovely place enriched with various cultures. The City Centre consists of a Main square surrounded by shops and many other businesses. A beautiful gothic fountain is the centerpiece of this square, and north of it lies The City Council building. As a young detective from down south, you begin to feel a bit overwhelmed.&#x000A;&#x000A;You can see a note, Morgana and Sigmund here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-188"/>
+    </children>
+  </item>
+  <item nodeId="node-188">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">(the notebook)&#x000A;You review your notes:You haven't written down any clues yet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-189"/>
+    </children>
+  </item>
+  <item nodeId="node-189">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-190"/>
+    </children>
+  </item>
+  <item nodeId="node-190">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in ancient carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;You can see a mirror and a grand vampire here.&#x000A;&#x000A;The sun sets, and the city grows quiet as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-191"/>
+    </children>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">East Wing&#x000A;The East Wing is a narrow corridor with flickering torches casting long shadows. You see several ornate doors along the walls, some ajar, revealing what looks like storage rooms.&#x000A;&#x000A;You can see Grog and a blood sample here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-192">
+    <command xml:space="preserve">examine Grog</command>
+    <result xml:space="preserve">Mhm, yep, that's a vampire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-193"/>
+    </children>
+  </item>
+  <item nodeId="node-193">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-194"/>
+    </children>
+  </item>
+  <item nodeId="node-194">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-195"/>
+    </children>
+  </item>
+  <item nodeId="node-195">
+    <command xml:space="preserve">kill Grog</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-196"/>
+    </children>
+  </item>
+  <item nodeId="node-196">
+    <command xml:space="preserve">attack Grog</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-197"/>
+    </children>
+  </item>
+  <item nodeId="node-197">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-198"/>
+    </children>
+  </item>
+  <item nodeId="node-198">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-199"/>
+    </children>
+  </item>
+  <item nodeId="node-199">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in ancient carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;You can see a mirror and a grand vampire here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-200"/>
+    </children>
+  </item>
+  <item nodeId="node-200">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">East Wing&#x000A;The East Wing is a narrow corridor with flickering torches casting long shadows. You see several ornate doors along the walls, some ajar, revealing what looks like storage rooms.&#x000A;&#x000A;You can see Grog and a blood sample here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-201"/>
+    </children>
+  </item>
+  <item nodeId="node-201">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in ancient carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;You can see a mirror and a grand vampire here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-202"/>
+    </children>
+  </item>
+  <item nodeId="node-202">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">West Wing&#x000A;The West Wing is a wide hallway with a vaulted ceiling and stained-glass windows that let in pale moonlight. At the end of the hall, a locked iron door catches your attention.&#x000A;&#x000A;You can see a torn document here.&#x000A;&#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-203"/>
+    </children>
+  </item>
+  <item nodeId="node-203">
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-204">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Market&#x000A;Lively area filled with vendors and interesting things.&#x000A;&#x000A;You can see Cecilia, Gaiman, an onions, a Book of The Undead and a Blood Pudding here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-205"/>
+    </children>
+  </item>
+  <item nodeId="node-205">
+    <command xml:space="preserve">ask Gaiman about the merch</command>
+    <result xml:space="preserve">"..."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-206"/>
+    </children>
+  </item>
+  <item nodeId="node-206">
+    <command xml:space="preserve">ask Gaiman about Merch</command>
+    <result xml:space="preserve">"Damn right I got merch. Buy your heart out kid."&#x000A;"No haggling.."&#x000A;1. "Onions"&#x000A;2. "Book of The Undead"&#x000A;3. "Blood Pudding"&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-207"/>
+    </children>
+  </item>
+  <item nodeId="node-207">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Good choice!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-208"/>
+    </children>
+  </item>
+  <item nodeId="node-208">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  an onions&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-209"/>
+    </children>
+  </item>
+  <item nodeId="node-209">
+    <command xml:space="preserve">eat onions</command>
+    <result xml:space="preserve">That's plainly inedible.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-210"/>
+    </children>
+  </item>
+  <item nodeId="node-210">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Merchants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;You can see Beggar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-211"/>
+    </children>
+  </item>
+  <item nodeId="node-211">
+    <command xml:space="preserve">examine Beggar</command>
+    <result xml:space="preserve">Poor thing, looks like he hasn't eaten a thing in a while. Maybe I should offer to feed him something?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-212"/>
+    </children>
+  </item>
+  <item nodeId="node-212">
+    <command xml:space="preserve">feed Beggar onions</command>
+    <result xml:space="preserve">Beggar doesn't seem interested.&#x000A;&#x000A;The sun sets, and the city grows quiet as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-213"/>
+    </children>
+  </item>
+  <item nodeId="node-213">
+    <command xml:space="preserve">feed Beggar with onions</command>
+    <result xml:space="preserve">You feed Beggar with Onions. He is devouring them like apples."I haven't eaten this good since the vampires held me hostage in the Nest. Can you belive that they tried to feast of off me?" He speaks with his mouth full. "Here look at this photo of me and the King."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-214"/>
+    </children>
+  </item>
+  <item nodeId="node-214">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Photograph&#x000A;  an onions&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-215"/>
+    </children>
+  </item>
+  <item nodeId="node-215">
+    <command xml:space="preserve">examine photograph</command>
+    <result xml:space="preserve">A strange photo of this man standing next to nothing? I guess vampires are not visible in the photos, huh.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-216"/>
+    </children>
+  </item>
+  <item nodeId="node-216">
+    <command xml:space="preserve">examine photograph</command>
+    <result xml:space="preserve">A strange photo of this man standing next to nothing? I guess vampires are not visible in the photos, huh.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-217"/>
+    </children>
+  </item>
+  <item nodeId="node-217">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Photograph&#x000A;  an onions&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-218"/>
+    </children>
+  </item>
+  <item nodeId="node-218">
+    <command xml:space="preserve">examine notebook</command>
+    <result xml:space="preserve">You review your notes:You haven't written down any clues yet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-219"/>
+    </children>
+  </item>
+  <item nodeId="node-219">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">New Volterra - City Centre&#x000A;The City of New Volterra is a, heh, lively metropolitan area inhabited by both people and nightfolk. Nightfolk include vampires, werewolves, ghouls, and many others. Like any other bigger city, New Volterra has its troubles such as the rise of dark magic, criminal organizations, and corruption. Other than that, it's a lovely place enriched with various cultures. The City Centre consists of a Main square surrounded by shops and many other businesses. A beautiful gothic fountain is the centerpiece of this square, and north of it lies The City Council building. As a young detective from down south, you begin to feel a bit overwhelmed.&#x000A;&#x000A;You can see a note, Morgana and Sigmund here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-220"/>
+    </children>
+  </item>
+  <item nodeId="node-220">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in ancient carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;You can see a mirror and a grand vampire here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-221"/>
+    </children>
+  </item>
+  <item nodeId="node-221">
+    <command xml:space="preserve">ask grand vampire about eternal life</command>
+    <result xml:space="preserve">"DO YOU WISH TO LIVE IT?"&#x000A;"The choice is yours, kid."&#x000A;1. "Become a vampire."&#x000A;2. "Bring justice - Kill him."&#x000A;3. "Do nothing."&#x000A;&#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-222"/>
+    </children>
+  </item>
+  <item nodeId="node-222">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Victor takes the $20 and hands you a rusty key. "Good choice," he says.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-223"/>
+    </children>
+  </item>
+  <item nodeId="node-223">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Victor takes the $20 and hands you a rusty key. "Good choice," he says.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-224"/>
+    </children>
+  </item>
+  <item nodeId="node-224">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a workshop key&#x000A;  Photograph&#x000A;  an onions&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-225">
+    <command xml:space="preserve">ask Morgana about vampires</command>
+    <result xml:space="preserve">"We don't see them much as they usually stay in Bloodless Nest. At least their elite."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-226"/>
+    </children>
+  </item>
+  <item nodeId="node-226">
+    <command xml:space="preserve">talk to Morgana about vampires</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-227"/>
+    </children>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Mechants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-228"/>
+    </children>
+  </item>
+  <item nodeId="node-228">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Hells Bells&#x000A;A pub that welcomes nightfolk and little less of others.&#x000A;&#x000A;You can see a wooden door, Patrik Noah and Isidora here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-229"/>
+    </children>
+  </item>
+  <item nodeId="node-229">
+    <command xml:space="preserve">ask Patrik Noah about himself</command>
+    <result xml:space="preserve">"Don't know, guess I am really passionate about cocktails, tattoos and computers. Ever heard of this band - King Gizzard? They are so cool. " Patrik yapps.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-230"/>
+    </children>
+  </item>
+  <item nodeId="node-230">
+    <command xml:space="preserve">ask Patrik Noah about vampires</command>
+    <result xml:space="preserve">"Aw man they are cool, sometimes they gather in my pub and order Bloody Marys - extra blood." Patrik winks and hands you a small rusty key. "You might need this." he says.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-231"/>
+    </children>
+  </item>
+  <item nodeId="node-231">
+    <command xml:space="preserve">ask Isidora about vampires</command>
+    <result xml:space="preserve">"Leave me alone, mortal."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
+  </item>
+  <item nodeId="node-232">
+    <command xml:space="preserve">ask Patrik Noah about vampires</command>
+    <result xml:space="preserve">"Aw man they are cool, sometimes they gather in my pub and order Bloody Marys - extra blood." Patrik winks and hands you a small rusty key. "You might need this." he says.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-233"/>
+    </children>
+  </item>
+  <item nodeId="node-233">
+    <command xml:space="preserve">ask Isidora about vampires</command>
+    <result xml:space="preserve">"Stop bothering me."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-234"/>
+    </children>
+  </item>
+  <item nodeId="node-234">
+    <command xml:space="preserve">ask Isidora about vampires</command>
+    <result xml:space="preserve">"Mortals can be so annoying."&#x000A;&#x000A;The sun sets, and the city grows quiet as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-235"/>
+    </children>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">ask Isidora about vampires</command>
+    <result xml:space="preserve">"Mortals can be so annoying."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
+    <command xml:space="preserve">examine Isidora</command>
+    <result xml:space="preserve">Mhm, yep, that's a vampire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-237"/>
+    </children>
+  </item>
+  <item nodeId="node-237">
+    <command xml:space="preserve">ask Isidora about vampires</command>
+    <result xml:space="preserve">"Mortals can be so annoying."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-238"/>
+    </children>
+  </item>
+  <item nodeId="node-238">
+    <command xml:space="preserve">ask Isidora about vampires</command>
+    <result xml:space="preserve">"Mortals can be so annoying."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-239"/>
+    </children>
+  </item>
+  <item nodeId="node-239">
+    <command xml:space="preserve">ask Isidora about vampires</command>
+    <result xml:space="preserve">"Mortals can be so annoying."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-240"/>
+    </children>
+  </item>
+  <item nodeId="node-240">
+    <command xml:space="preserve">ask Isidora about vampires</command>
+    <result xml:space="preserve">"Mortals can be so annoying."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-241"/>
+    </children>
+  </item>
+  <item nodeId="node-241">
+    <command xml:space="preserve">ask Isidora about vampires</command>
+    <result xml:space="preserve">"Mortals can be so annoying."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-242"/>
+    </children>
+  </item>
+  <item nodeId="node-242">
+    <command xml:space="preserve">ask Isidora about vampires</command>
+    <result xml:space="preserve">"Mortals can be so annoying."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-243"/>
+    </children>
+  </item>
+  <item nodeId="node-243">
+    <command xml:space="preserve">ask Isidora about vampires</command>
+    <result xml:space="preserve">"Mortals can be so annoying."&#x000A;&#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-244"/>
+    </children>
+  </item>
+  <item nodeId="node-244">
+    <command xml:space="preserve">examine Isidora</command>
+    <result xml:space="preserve">Strangely attractive woman with black hair and red eyes.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-245"/>
+    </children>
+  </item>
+  <item nodeId="node-245">
+    <command xml:space="preserve">examine wooden door</command>
+    <result xml:space="preserve">You see nothing special about the wooden door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-246"/>
+    </children>
+  </item>
+  <item nodeId="node-246">
+    <command xml:space="preserve">ask Isidora about vampires</command>
+    <result xml:space="preserve">"Mortals can be so annoying."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-247"/>
+    </children>
+  </item>
+  <item nodeId="node-247">
+    <command xml:space="preserve">ask Isidora about vampires</command>
+    <result xml:space="preserve">"Mortals can be so annoying."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-248"/>
+    </children>
+  </item>
+  <item nodeId="node-248">
+    <command xml:space="preserve">ask Isidora about door</command>
+    <result xml:space="preserve">"Mortals can be so annoying."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-249"/>
+    </children>
+  </item>
+  <item nodeId="node-249">
+    <command xml:space="preserve">examine Patrik Noah</command>
+    <result xml:space="preserve">A quriky bartender working in the pub. He collects gossip and rumours.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-250"/>
+    </children>
+  </item>
+  <item nodeId="node-250">
+    <command xml:space="preserve">ask Isidora about door</command>
+    <result xml:space="preserve">"Mortals can be so annoying."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-251"/>
+    </children>
+  </item>
+  <item nodeId="node-251">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Mechants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-252"/>
+    </children>
+  </item>
+  <item nodeId="node-252">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">1. Introduction and City of New Volterra &#x000A;The sun sets, and the city grows quiet as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-253"/>
+    </children>
+  </item>
+  <item nodeId="node-253">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Mechants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-254"/>
+    </children>
+  </item>
+  <item nodeId="node-254">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Hells Bells&#x000A;A pub that welcomes nightfolk and little less of others.&#x000A;&#x000A;You can see a wooden door, Patrik Noah and Isidora here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-255"/>
+    </children>
+  </item>
+  <item nodeId="node-255">
+    <command xml:space="preserve">open wooden door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-256"/>
+    </children>
+  </item>
+  <item nodeId="node-256">
+    <command xml:space="preserve">ask Patrik Noah about vampires</command>
+    <result xml:space="preserve">"Aw man they are cool, sometimes they gather in my pub and order Bloody Marys - extra blood." Patrik winks and hands you a small rusty key. "You might need this." he says.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-257"/>
+    </children>
+  </item>
+  <item nodeId="node-257">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-258"/>
+    </children>
+  </item>
+  <item nodeId="node-258">
+    <command xml:space="preserve">ask Patrik Noah about vampires</command>
+    <result xml:space="preserve">"Aw man they are cool, sometimes they gather in my pub and order Bloody Marys - extra blood." Patrik winks and hands you a small rusty key. "You might need this." he says.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-259"/>
+    </children>
+  </item>
+  <item nodeId="node-259">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-260"/>
+    </children>
+  </item>
+  <item nodeId="node-260">
+    <command xml:space="preserve">examine notebook</command>
+    <result xml:space="preserve">You review your notes:You haven't written down any clues yet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-261"/>
+    </children>
+  </item>
+  <item nodeId="node-261">
+    <command xml:space="preserve">ask Patrik Noah about vampires</command>
+    <result xml:space="preserve">"Aw man they are cool, sometimes they gather in my pub and order Bloody Marys - extra blood." Patrik winks and hands you a small rusty key. "You might need this." he says.&#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-262"/>
+    </children>
+  </item>
+  <item nodeId="node-262">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-263">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;You can see a mirror here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-264"/>
+    </children>
+  </item>
+  <item nodeId="node-264">
+    <command xml:space="preserve">ask grand vampire about eternal life</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-265"/>
+    </children>
+  </item>
+  <item nodeId="node-265">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Victor takes the $20 and hands you a rusty key. "Good choice," he says.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-266"/>
+    </children>
+  </item>
+  <item nodeId="node-266">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Victor takes the $20 and hands you a rusty key. "Good choice," he says.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-267"/>
+    </children>
+  </item>
+  <item nodeId="node-267">
+    <command xml:space="preserve">ask grand vampire about eternal life</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-268"/>
+    </children>
+  </item>
+  <item nodeId="node-268">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Victor takes the $20 and hands you a rusty key. "Good choice," he says.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-269"/>
+    </children>
+  </item>
+  <item nodeId="node-269">
+    <command xml:space="preserve">4</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-270"/>
+    </children>
+  </item>
+  <item nodeId="node-270">
+    <command xml:space="preserve">ask grand vampire about eternal life</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-271"/>
+    </children>
+  </item>
+  <item nodeId="node-271">
+    <command xml:space="preserve">4</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-272"/>
+    </children>
+  </item>
+  <item nodeId="node-272">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">*** You have chosen to join the Bloodless Nest. Come to me little bird. Your blood is now belongs to the night. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-273"/>
+    </children>
+  </item>
+  <item nodeId="node-273">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Wake up, Count Dorklok! You are here. In the City. Eight hours of train travel almost made you forget why you are here in the first place. Let me remind you! The rent is not gonna pay itself and Chief Redd needs you to help him find out some information. You see, there has been a robbery - at the blood bank! There is only one suspect profile and you guessed it. It's a vampire. Now, why would they send you - a humble police station database manager - to such a mission? Well, you're the only nerd in the police station interested enough in all this vampiric stuff. Like, remember how you wore a cape and fake fangs in middle school? Or tried to sue Twilight Saga for false depiction? Anyhow, now you are a detective. Good luck!&#x000A;&#x000A;DP Projekt 2025&#x000A;An Interactive Fiction by Klara kaulj&#x000A;Release 1 / Serial number 250117 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;New Volterra - City Centre&#x000A;The City of New Volterra is a, heh, lively metropolitan area inhabited by both people and nightfolk. Nightfolk include vampires, werewolves, ghouls, and many others. Like any other bigger city, New Volterra has its troubles such as the rise of dark magic, criminal organizations, and corruption. Other than that, it's a lovely place enriched with various cultures. The City Centre consists of a Main square surrounded by shops and many other businesses. A beautiful gothic fountain is the centerpiece of this square, and north of it lies The City Council building. As a young detective from down south, you begin to feel a bit overwhelmed.&#x000A;&#x000A;You can see a note, Morgana and Sigmund here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-274"/>
+    </children>
+  </item>
+  <item nodeId="node-274">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;You can see a mirror here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-275"/>
+    </children>
+  </item>
+  <item nodeId="node-275">
+    <command xml:space="preserve">take mirror</command>
+    <result xml:space="preserve">You jot down the details of "mirror" in your notebook.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-276"/>
+    </children>
+  </item>
+  <item nodeId="node-276">
+    <command xml:space="preserve">examine mirror</command>
+    <result xml:space="preserve">I look unrecognizable.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-277"/>
+    </children>
+  </item>
+  <item nodeId="node-277">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">East Wing&#x000A;The East Wing is a narrow corridor with flickering torches casting long shadows. You see several ornate doors along the walls, some ajar, revealing what looks like storage rooms.&#x000A;&#x000A;You can see Grog and a blood sample here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-278"/>
+    </children>
+  </item>
+  <item nodeId="node-278">
+    <command xml:space="preserve">examine gorg</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-279"/>
+    </children>
+  </item>
+  <item nodeId="node-279">
+    <command xml:space="preserve">examine Gorg</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-280"/>
+    </children>
+  </item>
+  <item nodeId="node-280">
+    <command xml:space="preserve">examine Grog</command>
+    <result xml:space="preserve">Hideous creature - Sunken eyes, and slimey pale skin. His entire existance yearns for some blood.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-281"/>
+    </children>
+  </item>
+  <item nodeId="node-281">
+    <command xml:space="preserve">ask Grog about vampires</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-282"/>
+    </children>
+  </item>
+  <item nodeId="node-282">
+    <command xml:space="preserve">ask Grog about King</command>
+    <result xml:space="preserve">I have been a servant to my King for the past 348 years. For centuries he searched for a place to settle and then he ran into this. He has made a home for all of us.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-283"/>
+    </children>
+  </item>
+  <item nodeId="node-283">
+    <command xml:space="preserve">ask Grog about cirme</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-284"/>
+    </children>
+  </item>
+  <item nodeId="node-284">
+    <command xml:space="preserve">ask Grog about crime</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;The sun sets, and the city grows mystic as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-285"/>
+    </children>
+  </item>
+  <item nodeId="node-285">
+    <command xml:space="preserve">ask Grog about blood bank</command>
+    <result xml:space="preserve">All the blood banks in this city have put Vampire Proof doors so we can't come in. The blood bank in your town is the only one they invited us in. If you ask me, a total violation of security.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-286"/>
+    </children>
+  </item>
+  <item nodeId="node-286">
+    <command xml:space="preserve">give Grog Blood Pudding</command>
+    <result xml:space="preserve">I only understood you as far as wanting to give Grog the blood sample.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-287"/>
+    </children>
+  </item>
+  <item nodeId="node-287">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-288"/>
+    </children>
+  </item>
+  <item nodeId="node-288">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">West Wing&#x000A;The West Wing is a wide hallway with a vaulted ceiling and stained-glass windows that let in pale moonlight. At the end of the hall, a locked iron door catches your attention.&#x000A;&#x000A;You can see an Iron Door and a torn document here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-289"/>
+    </children>
+  </item>
+  <item nodeId="node-289">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-290"/>
+    </children>
+  </item>
+  <item nodeId="node-290">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">West Wing&#x000A;The West Wing is a wide hallway with a vaulted ceiling and stained-glass windows that let in pale moonlight. At the end of the hall, a locked iron door catches your attention.&#x000A;&#x000A;You can see an Iron Door and a torn document here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-291"/>
+    </children>
+  </item>
+  <item nodeId="node-291">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-292"/>
+    </children>
+  </item>
+  <item nodeId="node-292">
+    <command xml:space="preserve">go back</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-293"/>
+    </children>
+  </item>
+  <item nodeId="node-293">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">West Wing&#x000A;The West Wing is a wide hallway with a vaulted ceiling and stained-glass windows that let in pale moonlight. At the end of the hall, a locked iron door catches your attention.&#x000A;&#x000A;You can see an Iron Door and a torn document here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-294"/>
+    </children>
+  </item>
+  <item nodeId="node-294">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-295"/>
+    </children>
+  </item>
+  <item nodeId="node-295">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-296"/>
+    </children>
+  </item>
+  <item nodeId="node-296">
+    <command xml:space="preserve">go to The New Volterra - City Centre </command>
+    <result xml:space="preserve">You need the teleportation stone to teleport!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-297">
+    <command xml:space="preserve">ask Sigmund about Vampires</command>
+    <result xml:space="preserve">Victor whispers: "You going to the Nest? As a friend, let me give you a little something." He hands you a crystal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-298"/>
+    </children>
+  </item>
+  <item nodeId="node-298">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a teleportation stone&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-299"/>
+    </children>
+  </item>
+  <item nodeId="node-299">
+    <command xml:space="preserve">examine teleportation stone</command>
+    <result xml:space="preserve">You see nothing special about the teleportation stone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-300"/>
+    </children>
+  </item>
+  <item nodeId="node-300">
+    <command xml:space="preserve">go souht</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-301"/>
+    </children>
+  </item>
+  <item nodeId="node-301">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Merchants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;You can see Beggar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-302"/>
+    </children>
+  </item>
+  <item nodeId="node-302">
+    <command xml:space="preserve">examine Beggar</command>
+    <result xml:space="preserve">Poor thing, looks like he hasn't eaten a thing in a while. Maybe I should offer to feed him something?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-303"/>
+    </children>
+  </item>
+  <item nodeId="node-303">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Hells Bells&#x000A;A pub that welcomes nightfolk and all of the others.&#x000A;&#x000A;You can see a wooden door, Patrik Noah and Isidora here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-304"/>
+    </children>
+  </item>
+  <item nodeId="node-304">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Merchants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;You can see Beggar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-305"/>
+    </children>
+  </item>
+  <item nodeId="node-305">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Market&#x000A;Lively area filled with vendors and interesting things.&#x000A;&#x000A;You can see Cecilia, Gaiman, an onions, a Book of The Undead and a Blood Pudding here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-306"/>
+    </children>
+  </item>
+  <item nodeId="node-306">
+    <command xml:space="preserve">examine Cecilia</command>
+    <result xml:space="preserve">A mysterious figure in long black dress and big sunglasses.&#x000A;The sun sets, and the city grows mystic as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-307"/>
+    </children>
+  </item>
+  <item nodeId="node-307">
+    <command xml:space="preserve">examine Cecilia</command>
+    <result xml:space="preserve">Mhm, yep, that's a vampire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-308"/>
+    </children>
+  </item>
+  <item nodeId="node-308">
+    <command xml:space="preserve">examine Gaiman</command>
+    <result xml:space="preserve">Short and fat man that sells a variety of things. You can buy something from him by asking him about merch&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-309"/>
+    </children>
+  </item>
+  <item nodeId="node-309">
+    <command xml:space="preserve">ask Gaiman about merch</command>
+    <result xml:space="preserve">"Damn right I got merch. Buy your heart out kid."&#x000A;"No haggling.."&#x000A;1. "Onions"&#x000A;2. "Book of The Undead"&#x000A;3. "Blood Pudding"&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-310"/>
+    </children>
+  </item>
+  <item nodeId="node-310">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Market is closed at night.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-311"/>
+    </children>
+  </item>
+  <item nodeId="node-311">
+    <command xml:space="preserve">examine Gaiman</command>
+    <result xml:space="preserve">Short and fat man that sells a variety of things. You can buy something from him by asking him about merch&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-312"/>
+    </children>
+  </item>
+  <item nodeId="node-312">
+    <command xml:space="preserve">examine Gaiman</command>
+    <result xml:space="preserve">Short and fat man that sells a variety of things. You can buy something from him by asking him about merch&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-313"/>
+    </children>
+  </item>
+  <item nodeId="node-313">
+    <command xml:space="preserve">examine Gaiman</command>
+    <result xml:space="preserve">Short and fat man that sells a variety of things. You can buy something from him by asking him about merch&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-314"/>
+    </children>
+  </item>
+  <item nodeId="node-314">
+    <command xml:space="preserve">examine Gaiman</command>
+    <result xml:space="preserve">Short and fat man that sells a variety of things. You can buy something from him by asking him about merch&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-315"/>
+    </children>
+  </item>
+  <item nodeId="node-315">
+    <command xml:space="preserve">examine Gaiman</command>
+    <result xml:space="preserve">Short and fat man that sells a variety of things. You can buy something from him by asking him about merch&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-316"/>
+    </children>
+  </item>
+  <item nodeId="node-316">
+    <command xml:space="preserve">examine Gaiman</command>
+    <result xml:space="preserve">Short and fat man that sells a variety of things. You can buy something from him by asking him about merch&#x000A;&#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-317"/>
+    </children>
+  </item>
+  <item nodeId="node-317">
+    <command xml:space="preserve">ask Gaiman about merch</command>
+    <result xml:space="preserve">"Damn right I got merch. Buy your heart out kid."&#x000A;"No haggling.."&#x000A;1. "Onions"&#x000A;2. "Book of The Undead"&#x000A;3. "Blood Pudding"&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-318"/>
+    </children>
+  </item>
+  <item nodeId="node-318">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Good choice!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-319"/>
+    </children>
+  </item>
+  <item nodeId="node-319">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  an onions&#x000A;  a teleportation stone&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-320"/>
+    </children>
+  </item>
+  <item nodeId="node-320">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-321"/>
+    </children>
+  </item>
+  <item nodeId="node-321">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Merchants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;You can see Beggar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-322"/>
+    </children>
+  </item>
+  <item nodeId="node-322">
+    <command xml:space="preserve">feed Beggar onions</command>
+    <result xml:space="preserve">Beggar doesn't seem interested.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-323"/>
+    </children>
+  </item>
+  <item nodeId="node-323">
+    <command xml:space="preserve">feed Beggar with Onions</command>
+    <result xml:space="preserve">You feed Beggar with Onions. He is devouring them like apples."I haven't eaten this good since the vampires held me hostage in the Nest. Can you belive that they tried to feast of off me?" He speaks with his mouth full. "Here look at this photo of me and the King."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-324"/>
+    </children>
+  </item>
+  <item nodeId="node-324">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Photograph&#x000A;  an onions&#x000A;  a teleportation stone&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-325"/>
+    </children>
+  </item>
+  <item nodeId="node-325">
+    <command xml:space="preserve">examine Photograph</command>
+    <result xml:space="preserve">A strange photo of this man standing next to nothing? I guess vampires are not visible in the photos, huh.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-326"/>
+    </children>
+  </item>
+  <item nodeId="node-326">
+    <command xml:space="preserve">ask Beggar about vampires</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;The sun sets, and the city grows mystic as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-327"/>
+    </children>
+  </item>
+  <item nodeId="node-327">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Hells Bells&#x000A;A pub that welcomes nightfolk and all of the others.&#x000A;&#x000A;You can see a wooden door, Patrik Noah and Isidora here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-328"/>
+    </children>
+  </item>
+  <item nodeId="node-328">
+    <command xml:space="preserve">examine Isidora</command>
+    <result xml:space="preserve">Mhm, yep, that's a vampire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-329"/>
+    </children>
+  </item>
+  <item nodeId="node-329">
+    <command xml:space="preserve">ask Isidora about vampires</command>
+    <result xml:space="preserve">"Leave me alone, mortal."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-330"/>
+    </children>
+  </item>
+  <item nodeId="node-330">
+    <command xml:space="preserve">ask Patrik Noah about vampires</command>
+    <result xml:space="preserve">"Aw man they are cool, sometimes they gather in my pub and order Bloody Marys - extra blood." Patrik winks and hands you a small rusty key. "You might need this." he says.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-331"/>
+    </children>
+  </item>
+  <item nodeId="node-331">
+    <command xml:space="preserve">examine rusty key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-332"/>
+    </children>
+  </item>
+  <item nodeId="node-332">
+    <command xml:space="preserve">examine key</command>
+    <result xml:space="preserve">The vault key looks rusty and small, definitely important for unlocking something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-333"/>
+    </children>
+  </item>
+  <item nodeId="node-333">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the wooden door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-334"/>
+    </children>
+  </item>
+  <item nodeId="node-334">
+    <command xml:space="preserve">unlock wooden door</command>
+    <result xml:space="preserve">What do you want to unlock the wooden door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-335"/>
+    </children>
+  </item>
+  <item nodeId="node-335">
+    <command xml:space="preserve">unlock wooden door with Vault key</command>
+    <result xml:space="preserve">(first taking the vault key)&#x000A;Eeek, the wooden door unlocks.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-336"/>
+    </children>
+  </item>
+  <item nodeId="node-336">
+    <command xml:space="preserve">open wooden door</command>
+    <result xml:space="preserve">You open the wooden door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-337"/>
+    </children>
+  </item>
+  <item nodeId="node-337">
+    <command xml:space="preserve">go in</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-338"/>
+    </children>
+  </item>
+  <item nodeId="node-338">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Secret Room&#x000A;This is some sort of an archive.&#x000A;&#x000A;You can see a wooden door and a shiny scroll here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-339"/>
+    </children>
+  </item>
+  <item nodeId="node-339">
+    <command xml:space="preserve">examine a shiny scroll</command>
+    <result xml:space="preserve">If you wish to become a creature of the night, you shall come to me mortal and I shall grant you your wish. Come to my nest, little bird. Fear me not.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-340"/>
+    </children>
+  </item>
+  <item nodeId="node-340">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Hells Bells&#x000A;A pub that welcomes nightfolk and all of the others.&#x000A;&#x000A;You can see a wooden door, Patrik Noah and Isidora here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-341"/>
+    </children>
+  </item>
+  <item nodeId="node-341">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Merchants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;You can see Beggar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-342"/>
+    </children>
+  </item>
+  <item nodeId="node-342">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">New Volterra - City Centre&#x000A;The City of New Volterra is a, heh, lively metropolitan area inhabited by both people and nightfolk. Nightfolk include vampires, werewolves, ghouls, and many others. Like any other bigger city, New Volterra has its troubles such as the rise of dark magic, criminal organizations, and corruption. Other than that, it's a lovely place enriched with various cultures. The City Centre consists of a Main square surrounded by shops and many other businesses. A beautiful gothic fountain is the centerpiece of this square, and north of it lies The City Council building. As a young detective from down south, you begin to feel a bit overwhelmed.&#x000A;&#x000A;You can see a note, Morgana and Sigmund here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-343"/>
+    </children>
+  </item>
+  <item nodeId="node-343">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">You slip the note into your pocket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-344"/>
+    </children>
+  </item>
+  <item nodeId="node-344">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">Find Victor. He will give you directions and provide you with equipment. His shop is in City Centre. Info: Victor Volturi, West City Centre 45, NV - Redd&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-345"/>
+    </children>
+  </item>
+  <item nodeId="node-345">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Victor's workshop&#x000A;Victor is an engineer. He makes weapons and various other tools used by police and military. It's rumored that he also pracitces some kind of magic, but you are not the one to fall for rumors, are you? The workshop reeks of garlic.&#x000A;&#x000A;You can see Victor Volturi, a workshop key, a chest (closed), Garlic bread and a gun here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-346"/>
+    </children>
+  </item>
+  <item nodeId="node-346">
+    <command xml:space="preserve">examine workshop key</command>
+    <result xml:space="preserve">A rusty key. That you payed 20 bucks for. 20 bucks for rusty key.&#x000A;&#x000A;The sun sets, and the city grows mystic as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-347"/>
+    </children>
+  </item>
+  <item nodeId="node-347">
+    <command xml:space="preserve">ask Victor Volturi about vampires</command>
+    <result xml:space="preserve">"I don't have much to say about that," Victor grumbles, returning to his work.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-348"/>
+    </children>
+  </item>
+  <item nodeId="node-348">
+    <command xml:space="preserve">ask Victor Volturi about weapons</command>
+    <result xml:space="preserve">"I have been crafting guns, swords, daggers, cannons and buncha other knicknacks for over 90 years now using only the finest materials there are."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-349"/>
+    </children>
+  </item>
+  <item nodeId="node-349">
+    <command xml:space="preserve">ask Victor Volturi about gun</command>
+    <result xml:space="preserve">"Take it. It's made for you. Your boss payed me up front."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-350"/>
+    </children>
+  </item>
+  <item nodeId="node-350">
+    <command xml:space="preserve">ask Victor Volturi about chest</command>
+    <result xml:space="preserve">"That chest over there? It contains some of my finest creations. But only those with the right key can open it."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-351"/>
+    </children>
+  </item>
+  <item nodeId="node-351">
+    <command xml:space="preserve">ask Victor Volturi about key</command>
+    <result xml:space="preserve">"20 bucks, take it or leave it."&#x000A;"What do you want to do next?"&#x000A;1. "Pay the $20 and buy the key."&#x000A;2. "Try to haggle."&#x000A;3. "Never mind."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-352"/>
+    </children>
+  </item>
+  <item nodeId="node-352">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">Victor takes the $20 and hands you a rusty key. "Good choice," he says.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-353"/>
+    </children>
+  </item>
+  <item nodeId="node-353">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a workshop key&#x000A;  a note 1&#x000A;  a vault key&#x000A;  Photograph&#x000A;  an onions&#x000A;  a teleportation stone&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-354"/>
+    </children>
+  </item>
+  <item nodeId="node-354">
+    <command xml:space="preserve">open chest with workshop key</command>
+    <result xml:space="preserve">You insert the key into the lock and turn it. The chest is now unlocked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-355"/>
+    </children>
+  </item>
+  <item nodeId="node-355">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open the chest and find a something inside. You take the grab and close the chest again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-356"/>
+    </children>
+  </item>
+  <item nodeId="node-356">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a garlic&#x000A;  a workshop key&#x000A;  a note 1&#x000A;  a vault key&#x000A;  Photograph&#x000A;  an onions&#x000A;  a teleportation stone&#x000A;  a notebook&#x000A;&#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-357"/>
+    </children>
+  </item>
+  <item nodeId="node-357">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">New Volterra - City Centre&#x000A;The City of New Volterra is a, heh, lively metropolitan area inhabited by both people and nightfolk. Nightfolk include vampires, werewolves, ghouls, and many others. Like any other bigger city, New Volterra has its troubles such as the rise of dark magic, criminal organizations, and corruption. Other than that, it's a lovely place enriched with various cultures. The City Centre consists of a Main square surrounded by shops and many other businesses. A beautiful gothic fountain is the centerpiece of this square, and north of it lies The City Council building. As a young detective from down south, you begin to feel a bit overwhelmed.&#x000A;&#x000A;You can see Morgana and Sigmund here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-358"/>
+    </children>
+  </item>
+  <item nodeId="node-358">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;You can see a mirror here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-359"/>
+    </children>
+  </item>
+  <item nodeId="node-359">
+    <command xml:space="preserve">take mirror</command>
+    <result xml:space="preserve">You jot down the details of "mirror" in your notebook.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-360"/>
+    </children>
+  </item>
+  <item nodeId="node-360">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">East Wing&#x000A;The East Wing is a narrow corridor with flickering torches casting long shadows. You see several ornate doors along the walls, some ajar, revealing what looks like storage rooms.&#x000A;&#x000A;You can see Grog and a blood sample here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-361"/>
+    </children>
+  </item>
+  <item nodeId="node-361">
+    <command xml:space="preserve">examine Grog</command>
+    <result xml:space="preserve">Hideous creature - Sunken eyes, and slimey pale skin. His entire existance yearns for some blood.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-362"/>
+    </children>
+  </item>
+  <item nodeId="node-362">
+    <command xml:space="preserve">ask Grog about vampires</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-363"/>
+    </children>
+  </item>
+  <item nodeId="node-363">
+    <command xml:space="preserve">ask Grog about King</command>
+    <result xml:space="preserve">I have been a servant to my King for the past 348 years. For centuries he searched for a place to settle and then he ran into this. He has made a home for all of us.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-364"/>
+    </children>
+  </item>
+  <item nodeId="node-364">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-365"/>
+    </children>
+  </item>
+  <item nodeId="node-365">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">West Wing&#x000A;The West Wing is a wide hallway with a vaulted ceiling and stained-glass windows that let in pale moonlight. At the end of the hall, a locked iron door catches your attention.&#x000A;&#x000A;You can see an Iron Door and a torn document here.&#x000A;&#x000A;The sun sets, and the city grows mystic as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-366"/>
+    </children>
+  </item>
+  <item nodeId="node-366">
+    <command xml:space="preserve">examine torn document</command>
+    <result xml:space="preserve">A fragment of parchment with faded writing in a strange language. But I can feel it calling me.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-367"/>
+    </children>
+  </item>
+  <item nodeId="node-367">
+    <command xml:space="preserve">examine notebook</command>
+    <result xml:space="preserve">You review your notes:mirror: I look unrecognizable.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-368"/>
+    </children>
+  </item>
+  <item nodeId="node-368">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-369"/>
+    </children>
+  </item>
+  <item nodeId="node-369">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">West Wing&#x000A;The West Wing is a wide hallway with a vaulted ceiling and stained-glass windows that let in pale moonlight. At the end of the hall, a locked iron door catches your attention.&#x000A;&#x000A;You can see an Iron Door and a torn document here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-370"/>
+    </children>
+  </item>
+  <item nodeId="node-370">
+    <command xml:space="preserve">take torn document</command>
+    <result xml:space="preserve">You jot down the details of "torn document" in your notebook.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-371"/>
+    </children>
+  </item>
+  <item nodeId="node-371">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You feel unprepared to face the Grand Vampire. Perhaps you should gather more evidence before proceeding.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-372"/>
+    </children>
+  </item>
+  <item nodeId="node-372">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-373"/>
+    </children>
+  </item>
+  <item nodeId="node-373">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-374"/>
+    </children>
+  </item>
+  <item nodeId="node-374">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">West Wing&#x000A;The West Wing is a wide hallway with a vaulted ceiling and stained-glass windows that let in pale moonlight. At the end of the hall, a locked iron door catches your attention.&#x000A;&#x000A;You can see an Iron Door here.&#x000A;&#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-375"/>
+    </children>
+  </item>
+  <item nodeId="node-375">
+    <command xml:space="preserve">go to New Volterra - City centre</command>
+    <result xml:space="preserve">New Volterra - City Centre&#x000A;The City of New Volterra is a, heh, lively metropolitan area inhabited by both people and nightfolk. Nightfolk include vampires, werewolves, ghouls, and many others. Like any other bigger city, New Volterra has its troubles such as the rise of dark magic, criminal organizations, and corruption. Other than that, it's a lovely place enriched with various cultures. The City Centre consists of a Main square surrounded by shops and many other businesses. A beautiful gothic fountain is the centerpiece of this square, and north of it lies The City Council building. As a young detective from down south, you begin to feel a bit overwhelmed.&#x000A;&#x000A;You can see Morgana and Sigmund here.&#x000A;&#x000A;The teleportation stone glows, and the world blurs. When your vision clears, you find yourself in the New Volterra - City Centre.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-376"/>
+    </children>
+  </item>
+  <item nodeId="node-376">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Merchants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;You can see Beggar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-377"/>
+    </children>
+  </item>
+  <item nodeId="node-377">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Market&#x000A;Lively area filled with vendors and interesting things.&#x000A;&#x000A;You can see Cecilia, Gaiman, a Book of The Undead and a Blood Pudding here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-378"/>
+    </children>
+  </item>
+  <item nodeId="node-378">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Merchants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;You can see Beggar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-379"/>
+    </children>
+  </item>
+  <item nodeId="node-379">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Market&#x000A;Lively area filled with vendors and interesting things.&#x000A;&#x000A;You can see Cecilia, Gaiman, a Book of The Undead and a Blood Pudding here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-380"/>
+    </children>
+  </item>
+  <item nodeId="node-380">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Merchants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;You can see Beggar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-381"/>
+    </children>
+  </item>
+  <item nodeId="node-381">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Hells Bells&#x000A;A pub that welcomes nightfolk and all of the others.&#x000A;&#x000A;You can see a wooden door, Patrik Noah and Isidora here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-382"/>
+    </children>
+  </item>
+  <item nodeId="node-382">
+    <command xml:space="preserve">ask Patrik Noah about vampires</command>
+    <result xml:space="preserve">"Aw man they are cool, sometimes they gather in my pub and order Bloody Marys - extra blood." Patrik winks and hands you a small rusty key. "You might need this." he says.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-383"/>
+    </children>
+  </item>
+  <item nodeId="node-383">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a torn document&#x000A;  a mirror&#x000A;  a garlic&#x000A;  a workshop key&#x000A;  a note 1&#x000A;  a vault key&#x000A;  Photograph&#x000A;  an onions&#x000A;  a teleportation stone&#x000A;  a notebook&#x000A;&#x000A;The sun sets, and the city grows mystic as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-384"/>
+    </children>
+  </item>
+  <item nodeId="node-384">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Secret Room&#x000A;This is some sort of an archive.&#x000A;&#x000A;You can see a wooden door and a shiny scroll here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-385"/>
+    </children>
+  </item>
+  <item nodeId="node-385">
+    <command xml:space="preserve">take shiny scroll</command>
+    <result xml:space="preserve">You jot down the details of "shiny scroll" in your notebook.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-386"/>
+    </children>
+  </item>
+  <item nodeId="node-386">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-387"/>
+    </children>
+  </item>
+  <item nodeId="node-387">
+    <command xml:space="preserve">go wets</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-388"/>
+    </children>
+  </item>
+  <item nodeId="node-388">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Hells Bells&#x000A;A pub that welcomes nightfolk and all of the others.&#x000A;&#x000A;You can see a wooden door, Patrik Noah and Isidora here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-389"/>
+    </children>
+  </item>
+  <item nodeId="node-389">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Slums&#x000A;Poor side of the town. Streets are crowded with various folk. Merchants are selling all kinds of things. There are a couple of bars, as well.&#x000A;&#x000A;You can see Beggar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-390"/>
+    </children>
+  </item>
+  <item nodeId="node-390">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">New Volterra - City Centre&#x000A;The City of New Volterra is a, heh, lively metropolitan area inhabited by both people and nightfolk. Nightfolk include vampires, werewolves, ghouls, and many others. Like any other bigger city, New Volterra has its troubles such as the rise of dark magic, criminal organizations, and corruption. Other than that, it's a lovely place enriched with various cultures. The City Centre consists of a Main square surrounded by shops and many other businesses. A beautiful gothic fountain is the centerpiece of this square, and north of it lies The City Council building. As a young detective from down south, you begin to feel a bit overwhelmed.&#x000A;&#x000A;You can see Morgana and Sigmund here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-391"/>
+    </children>
+  </item>
+  <item nodeId="node-391">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Victor's workshop&#x000A;Victor is an engineer. He makes weapons and various other tools used by police and military. It's rumored that he also pracitces some kind of magic, but you are not the one to fall for rumors, are you? The workshop reeks of garlic.&#x000A;&#x000A;You can see Victor Volturi, a chest (closed), Garlic bread and a gun here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-392"/>
+    </children>
+  </item>
+  <item nodeId="node-392">
+    <command xml:space="preserve">take Garlic Bread</command>
+    <result xml:space="preserve">You jot down the details of "Garlic bread" in your notebook.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-393"/>
+    </children>
+  </item>
+  <item nodeId="node-393">
+    <command xml:space="preserve">examine notebook</command>
+    <result xml:space="preserve">You review your notes:shiny scroll: If you wish to become a creature of the night, you shall come to me mortal and I shall grant you your wish. Come to my nest, little bird. Fear me not.&#x000A;Garlic bread: Vampires don't really like garlic - must suck if they are Italian.&#x000A;mirror: I look unrecognizable.&#x000A;torn document: A fragment of parchment with faded writing in a strange language. But I can feel it calling me.&#x000A;&#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-394"/>
+    </children>
+  </item>
+  <item nodeId="node-394">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Garlic bread&#x000A;  a shiny scroll&#x000A;  a torn document&#x000A;  a mirror&#x000A;  a garlic&#x000A;  a workshop key&#x000A;  a note 1&#x000A;  a vault key&#x000A;  Photograph&#x000A;  an onions&#x000A;  a teleportation stone&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-395"/>
+    </children>
+  </item>
+  <item nodeId="node-395">
+    <command xml:space="preserve">ask Victor Volturi about gin</command>
+    <result xml:space="preserve">"I don't have much to say about that," Victor grumbles, returning to his work.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-396"/>
+    </children>
+  </item>
+  <item nodeId="node-396">
+    <command xml:space="preserve">ask Victor Volturi about gun</command>
+    <result xml:space="preserve">"Take it. It's made for you. Your boss payed me up front."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-397"/>
+    </children>
+  </item>
+  <item nodeId="node-397">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Garlic bread&#x000A;  a shiny scroll&#x000A;  a torn document&#x000A;  a mirror&#x000A;  a garlic&#x000A;  a workshop key&#x000A;  a note 1&#x000A;  a vault key&#x000A;  Photograph&#x000A;  an onions&#x000A;  a teleportation stone&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-398"/>
+    </children>
+  </item>
+  <item nodeId="node-398">
+    <command xml:space="preserve">take gun</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-399"/>
+    </children>
+  </item>
+  <item nodeId="node-399">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a gun&#x000A;  Garlic bread&#x000A;  a shiny scroll&#x000A;  a torn document&#x000A;  a mirror&#x000A;  a garlic&#x000A;  a workshop key&#x000A;  a note 1&#x000A;  a vault key&#x000A;  Photograph&#x000A;  an onions&#x000A;  a teleportation stone&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-400"/>
+    </children>
+  </item>
+  <item nodeId="node-400">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-401"/>
+    </children>
+  </item>
+  <item nodeId="node-401">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">New Volterra - City Centre&#x000A;The City of New Volterra is a, heh, lively metropolitan area inhabited by both people and nightfolk. Nightfolk include vampires, werewolves, ghouls, and many others. Like any other bigger city, New Volterra has its troubles such as the rise of dark magic, criminal organizations, and corruption. Other than that, it's a lovely place enriched with various cultures. The City Centre consists of a Main square surrounded by shops and many other businesses. A beautiful gothic fountain is the centerpiece of this square, and north of it lies The City Council building. As a young detective from down south, you begin to feel a bit overwhelmed.&#x000A;&#x000A;You can see Morgana and Sigmund here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-402"/>
+    </children>
+  </item>
+  <item nodeId="node-402">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;The sun sets, and the city grows mystic as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-403"/>
+    </children>
+  </item>
+  <item nodeId="node-403">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">East Wing&#x000A;The East Wing is a narrow corridor with flickering torches casting long shadows. You see several ornate doors along the walls, some ajar, revealing what looks like storage rooms.&#x000A;&#x000A;You can see Grog and a blood sample here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-404"/>
+    </children>
+  </item>
+  <item nodeId="node-404">
+    <command xml:space="preserve">take blood sample</command>
+    <result xml:space="preserve">You jot down the details of "blood sample" in your notebook.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-405"/>
+    </children>
+  </item>
+  <item nodeId="node-405">
+    <command xml:space="preserve">go to Market</command>
+    <result xml:space="preserve">Market&#x000A;Lively area filled with vendors and interesting things.&#x000A;&#x000A;You can see Cecilia, Gaiman, a Book of The Undead and a Blood Pudding here.&#x000A;&#x000A;The teleportation stone glows, and the world blurs. When your vision clears, you find yourself in Market.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-406"/>
+    </children>
+  </item>
+  <item nodeId="node-406">
+    <command xml:space="preserve">examine Cecilia</command>
+    <result xml:space="preserve">Mhm, yep, that's a vampire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-407"/>
+    </children>
+  </item>
+  <item nodeId="node-407">
+    <command xml:space="preserve">examine Cecilia</command>
+    <result xml:space="preserve">Mhm, yep, that's a vampire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-408"/>
+    </children>
+  </item>
+  <item nodeId="node-408">
+    <command xml:space="preserve">examine Cecilia</command>
+    <result xml:space="preserve">Mhm, yep, that's a vampire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-409"/>
+    </children>
+  </item>
+  <item nodeId="node-409">
+    <command xml:space="preserve">examine Cecilia</command>
+    <result xml:space="preserve">Mhm, yep, that's a vampire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-410"/>
+    </children>
+  </item>
+  <item nodeId="node-410">
+    <command xml:space="preserve">examine Cecilia</command>
+    <result xml:space="preserve">Mhm, yep, that's a vampire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-411"/>
+    </children>
+  </item>
+  <item nodeId="node-411">
+    <command xml:space="preserve">examine Cecilia</command>
+    <result xml:space="preserve">Mhm, yep, that's a vampire.&#x000A;&#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-412"/>
+    </children>
+  </item>
+  <item nodeId="node-412">
+    <command xml:space="preserve">ask Gaiman about merch</command>
+    <result xml:space="preserve">"Damn right I got merch. Buy your heart out kid."&#x000A;"No haggling.."&#x000A;1. "Onions"&#x000A;2. "Book of The Undead"&#x000A;3. "Blood Pudding"&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-413"/>
+    </children>
+  </item>
+  <item nodeId="node-413">
+    <command xml:space="preserve">3</command>
+    <result xml:space="preserve">That's nasty but there you go&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-414"/>
+    </children>
+  </item>
+  <item nodeId="node-414">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-415"/>
+    </children>
+  </item>
+  <item nodeId="node-415">
+    <command xml:space="preserve">go to Bloodless nest</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;The teleportation stone glows, and the world blurs. When your vision clears, you find yourself in the Bloodless Nest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-416"/>
+    </children>
+  </item>
+  <item nodeId="node-416">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">East Wing&#x000A;The East Wing is a narrow corridor with flickering torches casting long shadows. You see several ornate doors along the walls, some ajar, revealing what looks like storage rooms.&#x000A;&#x000A;You can see Grog here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-417"/>
+    </children>
+  </item>
+  <item nodeId="node-417">
+    <command xml:space="preserve">give Grog Blood Pudding</command>
+    <result xml:space="preserve">His eyes lit. He disgustingly eats the blood pudding with his bare hands. A card falls to the floor from his cloak. You swiftly take it. &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-418"/>
+    </children>
+  </item>
+  <item nodeId="node-418">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a card&#x000A;  a Blood Pudding&#x000A;  a blood sample&#x000A;  a gun&#x000A;  Garlic bread&#x000A;  a shiny scroll&#x000A;  a torn document&#x000A;  a mirror&#x000A;  a garlic&#x000A;  a workshop key&#x000A;  a note 1&#x000A;  a vault key&#x000A;  Photograph&#x000A;  an onions&#x000A;  a teleportation stone&#x000A;  a notebook&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-419"/>
+    </children>
+  </item>
+  <item nodeId="node-419">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-420"/>
+    </children>
+  </item>
+  <item nodeId="node-420">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Bloodless Nest&#x000A;You step into a dimly lit chamber with stone walls covered in carvings. Faint whispers echo through the halls, and the air smells of iron and decay. It's hard to shake the feeling that you're being watched.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-421"/>
+    </children>
+  </item>
+  <item nodeId="node-421">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">West Wing&#x000A;The West Wing is a wide hallway with a vaulted ceiling and stained-glass windows that let in pale moonlight. At the end of the hall, a locked iron door catches your attention.&#x000A;&#x000A;You can see an Iron Door here.&#x000A;&#x000A;The sun sets, and the city grows mystic as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-422"/>
+    </children>
+  </item>
+  <item nodeId="node-422">
+    <command xml:space="preserve">unlock Iron Door</command>
+    <result xml:space="preserve">What do you want to unlock the Iron Door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-423"/>
+    </children>
+  </item>
+  <item nodeId="node-423">
+    <command xml:space="preserve">unlock Iron Door witch card</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-424"/>
+    </children>
+  </item>
+  <item nodeId="node-424">
+    <command xml:space="preserve">unlock Iron Door with card</command>
+    <result xml:space="preserve">You slide the card through a hidden slot in the door. With a low rumble, the Iron Door creaks open, revealing the Throne Room.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-425"/>
+    </children>
+  </item>
+  <item nodeId="node-425">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the Iron Door)&#x000A;&#x000A;Throne Room&#x000A;A grand chamber with high ceilings and a sense of foreboding. At the center, seated on a dark, ornate throne, is the Grand Vampire himself, his presence dominating the space.&#x000A;&#x000A;You can see an Iron Door and a Grand Vampire here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-426"/>
+    </children>
+  </item>
+  <item nodeId="node-426">
+    <command xml:space="preserve">examine Grand Vampire</command>
+    <result xml:space="preserve">Mhm, yep, that's a vampire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-427"/>
+    </children>
+  </item>
+  <item nodeId="node-427">
+    <command xml:space="preserve">ask Grand Vampire about blood bank</command>
+    <result xml:space="preserve">"YOU ARRRE AWARRRE THAT... MY KIND MUST EATTTT..." The room shakes with his voice.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-428"/>
+    </children>
+  </item>
+  <item nodeId="node-428">
+    <command xml:space="preserve">ask Grand Vampire about crime</command>
+    <result xml:space="preserve">"..."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-429"/>
+    </children>
+  </item>
+  <item nodeId="node-429">
+    <command xml:space="preserve">ask Grand Vampire about blood</command>
+    <result xml:space="preserve">"..."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-430"/>
+    </children>
+  </item>
+  <item nodeId="node-430">
+    <command xml:space="preserve">ask Grand Vampire about crimes</command>
+    <result xml:space="preserve">"I COMMITTTED NO CRRRRRIME... MY SERRRVANTS HUNT FORRR ME."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-431"/>
+    </children>
+  </item>
+  <item nodeId="node-431">
+    <command xml:space="preserve">ask Grand Vampire about servants</command>
+    <result xml:space="preserve">"THOSE TO WHOM I GRRRRANT ETERRRRNAL LIFE."&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-432"/>
+    </children>
+  </item>
+  <item nodeId="node-432">
+    <command xml:space="preserve">ask Grand Vampire about eternal life</command>
+    <result xml:space="preserve">"DO YOU WISH TO LIVE IT?"&#x000A;"The choice is yours, kid."&#x000A;4. "Become a vampire."&#x000A;5. "Bring justice - Kill him."&#x000A;6. "Do nothing."&#x000A;&#x000A;The sun rises, and the city starts to stir again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-433"/>
+    </children>
+  </item>
+  <item nodeId="node-433">
+    <command xml:space="preserve">5</command>
+    <result xml:space="preserve">YOU DARRREEE TO OPPOSSEEE ME?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-434"/>
+    </children>
+  </item>
+  <item nodeId="node-434">
+    <command xml:space="preserve">kill Grand Vampire</command>
+    <result xml:space="preserve">You can only kill the grand vampire at night.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-435"/>
+    </children>
+  </item>
+  <item nodeId="node-435">
+    <command xml:space="preserve">ask Grand Vampire about eternal life</command>
+    <result xml:space="preserve">"DO YOU WISH TO LIVE IT?"&#x000A;"The choice is yours, kid."&#x000A;4. "Become a vampire."&#x000A;5. "Bring justice - Kill him."&#x000A;6. "Do nothing."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-436"/>
+    </children>
+  </item>
+  <item nodeId="node-436">
+    <command xml:space="preserve">6</command>
+    <result xml:space="preserve">....&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-437"/>
+    </children>
+  </item>
+  <item nodeId="node-437">
+    <command xml:space="preserve">6</command>
+    <result xml:space="preserve">....&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-438"/>
+    </children>
+  </item>
+  <item nodeId="node-438">
+    <command xml:space="preserve">66</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-439"/>
+    </children>
+  </item>
+  <item nodeId="node-439">
+    <command xml:space="preserve">5</command>
+    <result xml:space="preserve">YOU DARRREEE TO OPPOSSEEE ME?"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-440"/>
+    </children>
+  </item>
+  <item nodeId="node-440">
+    <command xml:space="preserve">examine Grand Vampire</command>
+    <result xml:space="preserve">The King of all Vampires. His presence is frightening and dark but there is something calling you to him...You must resist it. Remember - you are a detective. Forget about your foolish fantasies of becoming a vampire. Be honorable. Do the right thing...For yourself?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-441"/>
+    </children>
+  </item>
+  <item nodeId="node-441">
+    <command xml:space="preserve">examine Grand Vampire</command>
+    <result xml:space="preserve">The King of all Vampires. His presence is frightening and dark but there is something calling you to him...You must resist it. Remember - you are a detective. Forget about your foolish fantasies of becoming a vampire. Be honorable. Do the right thing...For yourself?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-442"/>
+    </children>
+  </item>
+  <item nodeId="node-442">
+    <command xml:space="preserve">examine Grand Vampire</command>
+    <result xml:space="preserve">The King of all Vampires. His presence is frightening and dark but there is something calling you to him...You must resist it. Remember - you are a detective. Forget about your foolish fantasies of becoming a vampire. Be honorable. Do the right thing...For yourself?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-443"/>
+    </children>
+  </item>
+  <item nodeId="node-443">
+    <command xml:space="preserve">examine Grand Vampire</command>
+    <result xml:space="preserve">The King of all Vampires. His presence is frightening and dark but there is something calling you to him...You must resist it. Remember - you are a detective. Forget about your foolish fantasies of becoming a vampire. Be honorable. Do the right thing...For yourself?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-444"/>
+    </children>
+  </item>
+  <item nodeId="node-444">
+    <command xml:space="preserve">examine Grand Vampire</command>
+    <result xml:space="preserve">The King of all Vampires. His presence is frightening and dark but there is something calling you to him...You must resist it. Remember - you are a detective. Forget about your foolish fantasies of becoming a vampire. Be honorable. Do the right thing...For yourself?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-445"/>
+    </children>
+  </item>
+  <item nodeId="node-445">
+    <command xml:space="preserve">examine Grand Vampire</command>
+    <result xml:space="preserve">The King of all Vampires. His presence is frightening and dark but there is something calling you to him...You must resist it. Remember - you are a detective. Forget about your foolish fantasies of becoming a vampire. Be honorable. Do the right thing...For yourself?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-446"/>
+    </children>
+  </item>
+  <item nodeId="node-446">
+    <command xml:space="preserve">examine Grand Vampire</command>
+    <result xml:space="preserve">The King of all Vampires. His presence is frightening and dark but there is something calling you to him...You must resist it. Remember - you are a detective. Forget about your foolish fantasies of becoming a vampire. Be honorable. Do the right thing...For yourself?&#x000A;The sun sets, and the city grows mystic as night falls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-447"/>
+    </children>
+  </item>
+  <item nodeId="node-447">
+    <command xml:space="preserve">kill Grand Vampire</command>
+    <result xml:space="preserve">You strike down the Grand Vampire, killing it instantly!&#x000A;&#x000A;&#x000A;&#x000A;    *** You did it. You really killed him. Your journey ends here and you are free to go back home. Cheif will reward you handsomely. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
